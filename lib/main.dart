@@ -8,6 +8,13 @@ void main() {
   runApp(const MyApp());
 }
 
+// FutureBuilder(HTTP) : it takes a request -> sends it
+// StreamBuilder(Soket Io) : it can take a request -> send it -> listens to it
+
+// In Firebase these are
+// get -> future -> http(http/get is one way)
+// snapshot -> stream -> Socket io(snapShot/socket io is two way)
+
 class MyApp extends StatelessWidget {
   const MyApp({Key?key}) : super(key: key);
 
